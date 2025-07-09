@@ -1,7 +1,7 @@
 services:
   db:
     image: mysql:latest
-    restart: always
+    restart: unless-stopped
     environment:
       MYSQL_DATABASE: 'ratinger_db'
       MYSQL_USER: 'user'
