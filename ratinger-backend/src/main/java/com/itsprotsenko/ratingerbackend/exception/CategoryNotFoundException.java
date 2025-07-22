@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 public class CategoryNotFoundException extends BaseException {
     public CategoryNotFoundException() {
-        super("Category not found", HttpStatus.NOT_FOUND);
+        super(HttpStatus.NOT_FOUND, "Category not found");
     }
 
     public CategoryNotFoundException(Long id) {
-        super("Category with ID " + id + " not found", HttpStatus.NOT_FOUND);
+        super(HttpStatus.NOT_FOUND, "Category with ID " + id + " not found");
     }
 }

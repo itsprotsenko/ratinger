@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 public class ItemNotFoundException extends BaseException {
     public ItemNotFoundException() {
-        super("Item not found", HttpStatus.NOT_FOUND);
+        super(HttpStatus.NOT_FOUND, "Item not found");
     }
     public ItemNotFoundException(Long id) {
-        super("Item with ID " + id + " not found", HttpStatus.NOT_FOUND);
+        super(HttpStatus.NOT_FOUND, "Item with ID " + id + " not found");
     }
 }
