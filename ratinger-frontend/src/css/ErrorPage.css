@@ -1,0 +1,11 @@
+.error-msg_p2 {
+    margin-top: 150px;
+    color: #ff0909;
+    font-family: "Bell MT", sans-serif;
+    font-size: 35px;
+}
+
+.error-msg_div {
+    display: flex;
+    justify-content: center;
+}

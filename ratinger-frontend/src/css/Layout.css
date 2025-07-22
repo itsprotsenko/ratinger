@@ -1,0 +1,26 @@
+.navbar_nav {
+    background-color: #61dafb;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.navbar_li {
+    display: inline;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.navbar-link {
+    color: #150070;
+    text-decoration: none;
+    font-family: "Bell MT", sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.navbar-link:hover {
+    background-color: #007ca1;
+    color: #d6bb0d;
+}
